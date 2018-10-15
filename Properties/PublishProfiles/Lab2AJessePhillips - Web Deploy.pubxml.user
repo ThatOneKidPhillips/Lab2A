@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAPvXj4uvlD0aj6rmTjc3b+QAAAAACAAAAAAADZgAAwAAAABAAAABUnVdcfMB6/E2f/h9tdqrxAAAAAASAAACgAAAAEAAAAOxP+6cr0/eMPEB/Nf+UyliAAAAA1mQhwKOYnabn62jhi7izlh/+3kJNFsC6hRnhCFvBLE1dJxGTjjOaNYVpo1Bc2vYQfoozv9ODLTMcuuIlZQ8UHQyfcd2EYZtQH5FZdPQmkeczzf4tuHZweenJ0ohZCtsot6pLpoxGQfFNewrBJ7huZFuOAQPs/hz5LRzMzeocQ0YUAAAAq8xo02OA2++2//L+thJyuWUGnL4=</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="ApplicationDbContext">
+      <Value>Data Source=tcp:lab2ajessephillipsdbserver.database.windows.net,1433;Initial Catalog=Lab2AJessePhillips_db;User Id=Jesse Phillips@lab2ajessephillipsdbserver;Password=Test1234@</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Lab1b.Data.ApplicationDbContext">
+      <Value>Data Source=tcp:lab2ajessephillipsdbserver.database.windows.net,1433;Initial Catalog=Lab2AJessePhillips_db;User Id=Jesse Phillips@lab2ajessephillipsdbserver;Password=Test1234@</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
